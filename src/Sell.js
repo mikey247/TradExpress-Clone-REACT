@@ -42,7 +42,7 @@ const Sell = () => {
                <option value="Euro">EUR</option>
            </select>
 
-           <label htmlFor="Ammount">Ammount</label>
+           <label htmlFor="Ammount">Quantity</label>
            <input type="number" />
            <button className="instant-button">Continue</button>
        </form>
