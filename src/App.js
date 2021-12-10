@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import Getstarted from "./GetStarted";
+import BuySell from "./Buy-Sell";
+import Login from "./Login";
+import Business from "./Business";
+import Sell from "./Sell";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Router>
+          <Navbar />
+
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/getstarted">
+              <Getstarted />
+            </Route>
+            <Route path="/business">
+              <Business />
+            </Route>
+            <Route path="/buysell">
+              <BuySell />
+            </Route>
+            <Route path ="/sell">
+              <Sell/>
+            </Route>
+          </Switch>
+        </Router>
+      </div>
     </div>
   );
 }
 
 export default App;
+// eslint-disable-next-line
+{
+  /* <Route path="/About">
+            <About />
+           
+          </Route> */
+}
