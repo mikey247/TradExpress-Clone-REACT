@@ -48,6 +48,11 @@ header {
   text-decoration: none;
   color: white;
 }
+.links a:hover {
+  text-decoration: underline 5px;
+  padding-bottom: 20px;
+  color: white;
+}
 .container {
   width: 95%;
   margin: auto;
@@ -479,7 +484,7 @@ footer a {
   text-decoration: none;
   margin-top: 40px;
 }
-.login a{
+.login a {
   text-decoration: none;
   color: #7c1fbf;
 }
