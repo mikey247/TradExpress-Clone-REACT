@@ -12,8 +12,8 @@ const Section5 = () => {
           <h1>Customer's Review</h1>
 
           <div class="review">
-            <div>
-              <img src={Chatbox} alt="" />
+            <div className="mover">
+              <img src={Chatbox} alt="" className="chatbox" />
               <div className="review-content">
                 <img src={Quotation} alt="" />
                 <p>
@@ -30,8 +30,8 @@ const Section5 = () => {
               </div>
             </div>
 
-            <div>
-              <img src={Chatbox} alt="" />
+            <div className="mover">
+              <img src={Chatbox} alt="" className="chatbox" />
               <div className="review-content">
                 <img src={Quotation} alt="" />
                 <p>
@@ -48,8 +48,8 @@ const Section5 = () => {
               </div>
             </div>
 
-            <div>
-              <img src={Chatbox} alt="" />
+            <div className="mover">
+              <img src={Chatbox} alt="" className="chatbox" />
               <div className="review-content">
                 <img src={Quotation} alt="" />
                 <p>

@@ -31,7 +31,8 @@ const Section3 = () => {
               <img src={Image} alt="" />
             </div>
 
-            <div className="flexname">
+           <div className="move-deposit">
+           <div className="flexname">
               <div className="numbers">2</div>
               <div>
                 <h2>Deposit</h2>
@@ -42,6 +43,7 @@ const Section3 = () => {
                 </p>
               </div>
             </div>
+           </div>
           </div>
 
           <div class="grid4">
