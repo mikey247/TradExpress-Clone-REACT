@@ -550,6 +550,137 @@ footer a {
   text-decoration: none;
 }
 
+@media (max-width: 375px){
+
+   /* SECTION 2 */
+   .section2 {
+    background-color: blue;
+    padding-top: 30px;
+  }
+  .section2 h1 {
+    text-align: center;
+  }
+
+  .grid {
+    display: block;
+    background-color: #f2f2f2;
+    width: 97%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .grid div {
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    position: relative;
+    right: 40px;
+   
+    /* padding: 20px; */
+  }
+  .grid p{
+    width: 70%;
+    margin: auto;
+    font-size: 15px;
+  }
+  /* /* .grid img {
+    max-width: 50%;
+  }/ */
+
+
+  /* section 3 */
+
+  .grid2 img {
+    width: 150px;
+    margin-top: 40px;
+    position: relative;
+    right: 10em;
+    top: 3em;
+   }
+ .grid3 img {
+     width: 150px;
+     margin-top: 40px;
+     position: relative;
+     top: 3em;
+    }
+.move-deposit{
+      position: relative;
+      right: 4em;
+    }
+ 
+.grid4 img{
+   width: 150px;
+    margin-top: 40px;
+    position: relative;
+    /* right: 2em; */
+    top: 3em;
+ }
+
+ /* SECTION 5 */
+
+.section5 {
+  margin-top: 80px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
+.section5 h1 {
+  text-align: center;
+}
+.review {
+  display: block;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  left: 0em ;
+}
+
+.review div{
+  position: relative;
+  right: 11em;
+} 
+
+.review-content {
+  display: flex;
+  position: relative;
+  bottom: 12em;
+  left: 2em
+}
+.review-content p {
+  color: white;
+  text-align: center;
+  font-size: smal;
+  width: 286px;
+  height: 63px;
+}
+.review-content img {
+  position: relative;
+  bottom: 35px;
+ 
+}
+.chatbox{
+width: 50px;
+/* margin: auto; */
+}
+.nametag img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+.nametag {
+  display: flex;
+  position: relative;
+  bottom: 6em;
+  left: 1em;
+}
+.nametag h4, .nametag p{
+  position: relative;
+  left: 12em;
+}
+
+}
+
 @media (max-width: 425px) {
 
   /* SECTION 2 */
